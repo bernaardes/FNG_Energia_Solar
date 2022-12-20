@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Economia</title>
+        <link rel="stylesheet" type="text/css" href="css\economia.css">
+        <script src="js\java.js"></script>
+    </head>
+    <body>
+        <header class="menu-principal">
+            <main>
+                <div class="header-1"><br />
+                    <div class="logo">
+                        <a href="index.html"><img src="img\home\logo.png" alt="Logo FNG Energia Solar"></a>
+                    </div>
+                    <div class="redes-sociais">
+                        <ul>
+                            <li><a href=""><img src="img/home/rss.png" alt="logo rss"></a></li>
+                            <li><a href=""><img src="img/home/face.png" alt="logo facebook"></a></li>
+                            <li><a href=""><img src="img/home/tw.png" alt="logo twitter"></a></li>
+                            <li><a href=""><img src="img/home/linkedin.png" alt="logo linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </header>
+        <main class="menu-urls">
+            <div class="header-2">
+                <div class="menu">
+                    <ul>
+                        <li><a id="a" href="index.html">Home</a></li>
+                        <li><a id="b" href="produtos.html">Produtos</a></li>
+                        <li><a id="c" href="beneficios.html">Benefícios</a></li>
+                        <li><a id="d" href="economia.html">Economia</a></li>
+                        <li><a id="e" href="faleconosco.html">Fale Conosco</a></li>
+                        <li><a id="f" href="cursoseespecializações.html">Cursos e Especializações</a></li>
+                        <li><a id="g" href="agendamentos.html">Agendamentos</a></li>
+                        <li><a id="h" href="projetos.html">Projetos</a></li>
+                        <li><a id="i" href="quemsomos.html">Quem Somos</a></li>
+                        <li><a id="j" href="ajuda.html">Ajuda</a></li>
+                        <li><a id="k" href="biggame.html">Big Game</a></li>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <li><a id="l" href="login.html">Registre-se</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+    <div class="corpo">
+        <div class="imagem">
+            <img src="img\economia\placa solar.jpg" alt="Placa Solar" width="500" height="250"></br>
+        </div>
+        <div class="texto1">
+            <h1>A Energia Solar não é mais o futuro, é o Presente!</h1>
+        </div>
+        <div class="texto2">
+            <h3 id="umtexto">Economize mais de 95% na sua conta de energia todos os meses, torne-se independente das distribuidoras de energia elétrica e reduza seu impacto no meio ambiente.</h3></br>
+        </div>
+        <div class="texto3">
+            <p>Simule abaixo quanto você poderá poupar ao contratar um serviço de instação de placas solares fotovoltaicas!</p></br></br>
+        </div>
+        <div class="conta">    
+            Informe o valor mensal gasto de kWh em sua Residência/Comércio.(Este valor pode ser encontrado na conta de luz)<br/><br/>
+            <input type="text" name="valor mensal energia eletrica" id="cx1" size="5"/><br/><br/>
+            Informe o valor da tarifa de sua conta de energia. (Essa tarifa é a taxa cobrada pela concessionária de energia para cada kWh utilizado em 
+            sua região de forneciomento, pode também ser encontrada na conta de luz)<br/><br/>
+            <input type="text" name="valor taxa" id="cx2" size="5"/><br/><br/>
+            <input type="button" class="resultado" value="Resultado" onclick="economia()"/>
+        </div>
+    </div>
+    <style>
+        @import url(tiny.css) (min-width:300px);
+        @import url(small.css) (min-width:600px);
+        @import url(big.css) (min-width:900px);
+    </style>
+</html>
